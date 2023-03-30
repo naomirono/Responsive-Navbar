@@ -5,8 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+     <!-- font awesome cdn link  -->
+     <script src="https://kit.fontawesome.com/d363a83682.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+
+    <nav class="navbar">
+
+        <div class="navbar_logo">
+            <a href="#">RenCar</a>
+        </div>
+
+        <ul class="navbar_menu">
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-house-chimney icon"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-list icon"></i>
+                    <span>My list</span>
+                </a>
+            </li>
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                    <span>Search</span>
+                </a>
+            </li>
+
+        </ul>
+
+        <label for="toggle" class="hamburger">
+
+            <i class="fa-solid fa-bars"></i>
+
+            <span class="toggle-text">
+                More
+            </span>
+        </label>
+
+        <input type="checkbox" name="toggle" id="toggle">
+
+        <ul class="navbar_sub-menu">
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Account</span>
+                </a>
+            </li>
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+
+            <li class="nav-link">
+                <a href="#">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Sign Out</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
     
 </body>
 </html>
